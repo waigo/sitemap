@@ -21,7 +21,7 @@ module.exports = {
   schedule: '0 0 0 * * *',  // every day at midnight
   handler: function*(app) {
     var sitemapUrl = encodeURIComponent(
-      app.config.baseUrl + (app.config.sitemapPath || '/sitemap.xml')
+      app.config.baseURL + (app.config.sitemapPath || '/sitemap.xml')
     );
 
     yield [
