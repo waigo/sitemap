@@ -1,0 +1,30 @@
+{
+  "name": "waigo-sitemap",
+  "version": "1.0.0",
+  "description": "Sitemap submission cron job for Waigo",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waigo/sitemap.git"
+  },
+  "keywords": [
+    "waigo",
+    "waigoplugin",
+    "cron",
+    "sitemap",
+  ],
+  "author": "Ramesh Nair <ram@hiddentao.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/waigo/sitemap",
+  "peerDependencies": {
+    "waigo": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "engine-strict": true,
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/waigo/sitemap/issues"
+  }
+}
