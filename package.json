@@ -11,7 +11,7 @@
     "waigo",
     "waigoplugin",
     "cron",
-    "sitemap",
+    "sitemap"
   ],
   "author": "Ramesh Nair <ram@hiddentao.com>",
   "license": "MIT",
@@ -26,5 +26,8 @@
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/waigo/sitemap/issues"
+  },
+  "dependencies": {
+    "got": "^6.1.2"
   }
 }
