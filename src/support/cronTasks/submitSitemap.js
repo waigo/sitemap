@@ -5,11 +5,6 @@ const pingUrl = function(app, url) {
   app.logger.debug('Submitting sitemap: ' + url);
 
   return got(url)
-    .then(function(res) {
-      if (200 !== res.status) {
-        throw new Error('Error fetching ' + url + ': ' + res.status + ', ' + res.text);
-      }
-    })
     .catch(function(err) {
       app.logger.error(err.toString());
     });
