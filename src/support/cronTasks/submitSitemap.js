@@ -7,7 +7,7 @@ const pingUrl = function(app, url) {
   return got(url)
     .then(function(res) {
       if (200 !== res.status) {
-        throw new Error('Error fetching ' + url + ': ' + res.text);
+        throw new Error('Error fetching ' + url + ': ' + res.status + ', ' + res.text);
       }
     })
     .catch(function(err) {
