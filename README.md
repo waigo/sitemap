@@ -1,3 +1,5 @@
+# waigo-plugin-sitemap
+
 This [waigo](http://waigojs.com) plugin provides:
 
 * Cron job to submit sitemap to Google and Bing.
@@ -5,7 +7,7 @@ This [waigo](http://waigojs.com) plugin provides:
 ## Installation
 
 ```bash
-$ npm install waigo-sitemap
+$ npm install waigo-plugin-sitemap
 ```
 
 ## Usage

@@ -1,7 +1,7 @@
 {
-  "name": "waigo-sitemap",
+  "name": "waigo-plugin-sitemap",
   "version": "1.0.0",
-  "description": "Sitemap submission cron job for Waigo",
+  "description": "Sitemap submission cron job for Waigo (plugin)",
   "main": "index.js",
   "repository": {
     "type": "git",
